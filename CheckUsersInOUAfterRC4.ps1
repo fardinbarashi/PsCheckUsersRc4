@@ -49,12 +49,12 @@ Try
     # Generate a HTML report columns
     $Report = "<html><head><style>table {border-collapse: collapse;} td {border: 1px dotted; padding: 5px;} tr:nth-child(even) {background-color: #f2f2f2;}</style></head><body><table>"
     $Report += "<tr>"
-    $Report += "<td>Username</td>"
-    $Report += "<td>Password Last Set</td>"
-    $Report += "<td>Description</td>"
-    $Report += "<td>Department</td>"
-    $Report += "<td>Only RC4 Enabled</td>"
-    $Report += "<td>Password changed since 2023</td>"
+    $Report += "<td><b>Username</b></td>"
+    $Report += "<td><b>Password Last Set</b></td>"
+    $Report += "<td><b>Description</b></td>"
+    $Report += "<td><b>Department</b></td>"
+    $Report += "<td><b>Only RC4 Enabled</b></td>"
+    $Report += "<td><b>Password changed since 2023</b></td>"
     $Report += "</tr>"
 
     # Add users to HTML-report
