@@ -1,5 +1,5 @@
 # PsCheckUsersRc4
-This is a PowerShell script is tool for 
+This is a PowerShell script tool for 
 [Windows Kerberos authentication breaks after November updates](https://www.bleepingcomputer.com/news/microsoft/windows-kerberos-authentication-breaks-after-november-updates/)
 
 This script is an easy and efficient way to check the RC4 encryption status for users in a specified OU or AD-group. It generates a detailed HTML report that includes all the necessary information, such as their username, passwordlastset, description, department, making it easier to manage and secure your Active Directory environment.
